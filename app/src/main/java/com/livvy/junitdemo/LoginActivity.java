@@ -9,7 +9,7 @@ import android.widget.Toast;
 import com.livvy.junitdemo.manager.BaseActivity;
 
 /**
- * 这就是哥简单的龙卢页面.没有错
+ * 这就是个简单的登陆页面.没有错
  * <p>
  * Created by livvy on 3/5/16.
  */
