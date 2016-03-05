@@ -13,10 +13,6 @@ import android.widget.TextView;
 
 import com.livvy.junitdemo.R;
 
-/**
- *
- * Created by livvy on 3/5/16.
- */
 public class LoadingDialog {
     public enum Style {
         SPIN_INDETERMINATE, PIE_DETERMINATE, ANNULAR_DETERMINATE, BAR_DETERMINATE
