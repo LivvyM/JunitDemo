@@ -21,7 +21,8 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.livvy.junitdemo.R;
+import cc.livvy.demo.R;
+
 
 class SpinView extends ImageView implements Indeterminate {
 

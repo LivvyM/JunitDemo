@@ -23,7 +23,8 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.livvy.junitdemo.R;
+import cc.livvy.demo.R;
+
 
 class BackgroundLayout extends FrameLayout {
 

@@ -5,6 +5,8 @@ import android.test.UiThreadTest;
 import android.widget.Button;
 import android.widget.EditText;
 
+import cc.livvy.demo.R;
+
 /**
  * Login页面的Junit
  *
@@ -16,7 +18,6 @@ public class LoginTest extends ActivityInstrumentationTestCase2<LoginActivity>{
     protected EditText mEditPassWord;
     protected Button mBtnLogin;
 
-    private LoginPresenter mPresenter;
 
     public LoginTest() {
         super(LoginActivity.class);
@@ -28,10 +29,7 @@ public class LoginTest extends ActivityInstrumentationTestCase2<LoginActivity>{
         mEditUserName = (EditText)getActivity().findViewById(R.id.mEditUserName);
         mEditPassWord = (EditText) getActivity().findViewById(R.id.mEditPassWord);
         mBtnLogin = (Button) getActivity().findViewById(R.id.mBtnLogin);
-        mPresenter = new LoginPresenter(getActivity());
     }
-
-
 
     /**
      * 用户名为空

@@ -24,7 +24,8 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.livvy.junitdemo.R;
+import cc.livvy.demo.R;
+
 
 class AnnularView extends View implements Determinate {
 

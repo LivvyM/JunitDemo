@@ -15,6 +15,5 @@ public interface ILoginView extends IDialogView{
 
     void processLoginResult(DataResult result);
 
-    default void showToast(String msg){
-    }
+    default void showToast(String msg){}
 }

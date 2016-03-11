@@ -4,6 +4,8 @@ import android.content.res.Resources;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import cc.livvy.demo.R;
+
 /**
  * 登陆的逻辑处理的presenter层
  *

@@ -5,6 +5,8 @@ import android.widget.TextView;
 
 import com.livvy.junitdemo.manager.BaseActivity;
 
+import cc.livvy.demo.R;
+
 public class MainActivity extends BaseActivity implements ILoginView{
 
     protected TextView mTextStatus;

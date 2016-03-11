@@ -8,6 +8,8 @@ import android.widget.Toast;
 
 import com.livvy.junitdemo.manager.BaseActivity;
 
+import cc.livvy.demo.R;
+
 /**
  * 这就是个简单的登陆页面.没有错
  * <p>

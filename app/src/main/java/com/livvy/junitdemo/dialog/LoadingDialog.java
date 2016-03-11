@@ -11,7 +11,8 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.livvy.junitdemo.R;
+import cc.livvy.demo.R;
+
 
 public class LoadingDialog {
     public enum Style {
